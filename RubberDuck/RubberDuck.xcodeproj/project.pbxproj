@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5700ABE2013DF4800175C09 /* 2927695.png in Resources */ = {isa = PBXBuildFile; fileRef = A5700ABD2013DF4800175C09 /* 2927695.png */; };
+		A5700AC02013FF4200175C09 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5700ABF2013FF4200175C09 /* AVFoundation.framework */; };
+		A5700AC2201402F000175C09 /* AVSUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5700AC1201402F000175C09 /* AVSUploader.swift */; };
+		A5700AC4201403A900175C09 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5700AC3201403A900175C09 /* Config.swift */; };
+		A5B31BDA201334A100A7C1AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B31BD9201334A100A7C1AC /* AppDelegate.swift */; };
+		A5B31BDC201334A100A7C1AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B31BDB201334A100A7C1AC /* ViewController.swift */; };
+		A5B31BDF201334A100A7C1AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B31BDD201334A100A7C1AC /* Main.storyboard */; };
+		A5B31BE1201334A100A7C1AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B31BE0201334A100A7C1AC /* Assets.xcassets */; };
+		A5B31BE4201334A100A7C1AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5B31BE2201334A100A7C1AC /* LaunchScreen.storyboard */; };
+		A5B31BED2013397600A7C1AC /* LoginWithAmazon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B31BEC2013397600A7C1AC /* LoginWithAmazon.framework */; };
+		A5B31BF0201339A300A7C1AC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B31BEF201339A300A7C1AC /* Security.framework */; };
+		A5B31BF2201339B700A7C1AC /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B31BF1201339B700A7C1AC /* SafariServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A53E4250201348E700A1AFE7 /* RubberDuck.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RubberDuck.entitlements; sourceTree = "<group>"; };
+		A5700ABD2013DF4800175C09 /* 2927695.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2927695.png; sourceTree = "<group>"; };
+		A5700ABF2013FF4200175C09 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A5700AC1201402F000175C09 /* AVSUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVSUploader.swift; sourceTree = "<group>"; };
+		A5700AC3201403A900175C09 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		A5B31BD6201334A100A7C1AC /* RubberDuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RubberDuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B31BD9201334A100A7C1AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5B31BDB201334A100A7C1AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5B31BDE201334A100A7C1AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5B31BE0201334A100A7C1AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5B31BE3201334A100A7C1AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5B31BE5201334A100A7C1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B31BEC2013397600A7C1AC /* LoginWithAmazon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LoginWithAmazon.framework; sourceTree = "<group>"; };
+		A5B31BEF201339A300A7C1AC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A5B31BF1201339B700A7C1AC /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5B31BD3201334A100A7C1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5700AC02013FF4200175C09 /* AVFoundation.framework in Frameworks */,
+				A5B31BF2201339B700A7C1AC /* SafariServices.framework in Frameworks */,
+				A5B31BF0201339A300A7C1AC /* Security.framework in Frameworks */,
+				A5B31BED2013397600A7C1AC /* LoginWithAmazon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5B31BCD201334A100A7C1AC = {
+			isa = PBXGroup;
+			children = (
+				A5B31BD8201334A100A7C1AC /* RubberDuck */,
+				A5B31BD7201334A100A7C1AC /* Products */,
+				A5B31BEE201339A300A7C1AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5B31BD7201334A100A7C1AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5B31BD6201334A100A7C1AC /* RubberDuck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5B31BD8201334A100A7C1AC /* RubberDuck */ = {
+			isa = PBXGroup;
+			children = (
+				A5700ABD2013DF4800175C09 /* 2927695.png */,
+				A53E4250201348E700A1AFE7 /* RubberDuck.entitlements */,
+				A5B31BEB2013392E00A7C1AC /* Frameworks */,
+				A5B31BD9201334A100A7C1AC /* AppDelegate.swift */,
+				A5700AC1201402F000175C09 /* AVSUploader.swift */,
+				A5700AC3201403A900175C09 /* Config.swift */,
+				A5B31BDB201334A100A7C1AC /* ViewController.swift */,
+				A5B31BDD201334A100A7C1AC /* Main.storyboard */,
+				A5B31BE0201334A100A7C1AC /* Assets.xcassets */,
+				A5B31BE2201334A100A7C1AC /* LaunchScreen.storyboard */,
+				A5B31BE5201334A100A7C1AC /* Info.plist */,
+			);
+			path = RubberDuck;
+			sourceTree = "<group>";
+		};
+		A5B31BEB2013392E00A7C1AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5B31BEC2013397600A7C1AC /* LoginWithAmazon.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5B31BEE201339A300A7C1AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5700ABF2013FF4200175C09 /* AVFoundation.framework */,
+				A5B31BF1201339B700A7C1AC /* SafariServices.framework */,
+				A5B31BEF201339A300A7C1AC /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5B31BD5201334A100A7C1AC /* RubberDuck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B31BE8201334A100A7C1AC /* Build configuration list for PBXNativeTarget "RubberDuck" */;
+			buildPhases = (
+				A5B31BD2201334A100A7C1AC /* Sources */,
+				A5B31BD3201334A100A7C1AC /* Frameworks */,
+				A5B31BD4201334A100A7C1AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RubberDuck;
+			productName = RubberDuck;
+			productReference = A5B31BD6201334A100A7C1AC /* RubberDuck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5B31BCE201334A100A7C1AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Indrajit;
+				TargetAttributes = {
+					A5B31BD5201334A100A7C1AC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A5B31BD1201334A100A7C1AC /* Build configuration list for PBXProject "RubberDuck" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5B31BCD201334A100A7C1AC;
+			productRefGroup = A5B31BD7201334A100A7C1AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5B31BD5201334A100A7C1AC /* RubberDuck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5B31BD4201334A100A7C1AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B31BE4201334A100A7C1AC /* LaunchScreen.storyboard in Resources */,
+				A5B31BE1201334A100A7C1AC /* Assets.xcassets in Resources */,
+				A5700ABE2013DF4800175C09 /* 2927695.png in Resources */,
+				A5B31BDF201334A100A7C1AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5B31BD2201334A100A7C1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5700AC2201402F000175C09 /* AVSUploader.swift in Sources */,
+				A5700AC4201403A900175C09 /* Config.swift in Sources */,
+				A5B31BDC201334A100A7C1AC /* ViewController.swift in Sources */,
+				A5B31BDA201334A100A7C1AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5B31BDD201334A100A7C1AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5B31BDE201334A100A7C1AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5B31BE2201334A100A7C1AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5B31BE3201334A100A7C1AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5B31BE6201334A100A7C1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5B31BE7201334A100A7C1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5B31BE9201334A100A7C1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RubberDuck/RubberDuck.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XSP65KJN65;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RubberDuck/Frameworks",
+					"$(PROJECT_DIR)/RubberDuck/Frameworks/LoginWithAmazon.framework",
+				);
+				INFOPLIST_FILE = RubberDuck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indra.shan.dev.RubberDuck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5B31BEA201334A100A7C1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RubberDuck/RubberDuck.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XSP65KJN65;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RubberDuck/Frameworks",
+					"$(PROJECT_DIR)/RubberDuck/Frameworks/LoginWithAmazon.framework",
+				);
+				INFOPLIST_FILE = RubberDuck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.indra.shan.dev.RubberDuck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5B31BD1201334A100A7C1AC /* Build configuration list for PBXProject "RubberDuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B31BE6201334A100A7C1AC /* Debug */,
+				A5B31BE7201334A100A7C1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B31BE8201334A100A7C1AC /* Build configuration list for PBXNativeTarget "RubberDuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B31BE9201334A100A7C1AC /* Debug */,
+				A5B31BEA201334A100A7C1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5B31BCE201334A100A7C1AC /* Project object */;
+}
